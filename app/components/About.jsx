@@ -20,7 +20,7 @@ const About = ({isDarkMode}) => {
         <motion.h2 
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
-        transition={{duration: 0.5, delay: 0.5}}
+        transition={{duration: 0.5, delay: 0.5}} 
         className='text-center text-5xl font-Ovo'>
             About me</motion.h2>
 
@@ -41,7 +41,7 @@ const About = ({isDarkMode}) => {
             whileInView={{opacity: 1}}
             transition={{duration: 0.6, delay: 0.8}}
             className='flex-1'>
-                <p className='mb-10 max-w-2xl font-Ovo'>I am an experienced Frontend Web Developer with over a years of professional expertise in the field. Throughput my career , I have had the privilege collaborating with prestigous organizations(IIITK), contributing to their success and growth.
+                <p className='mb-10 max-w-2xl font-Ovo'>I am an experienced MERN Stack Developer with over a years of professional expertise in the field. Throughput my career , I have had the privilege collaborating with prestigous organizations(IIITK), contributing to their success and growth.
                 </p>
 
                 <motion.ul 
