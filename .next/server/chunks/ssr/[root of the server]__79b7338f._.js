@@ -1074,7 +1074,7 @@ const infoList = [
         icon: assets.code_icon,
         iconDark: assets.code_icon_dark,
         title: 'Languages',
-        description: 'HTML, CSS, Tailwind CSS, JavaScript React Js, Next Js'
+        description: 'HTML, CSS, Tailwind CSS, JavaScript, React, Next.js, Node.js, Express.js'
     },
     {
         icon: assets.edu_icon,
