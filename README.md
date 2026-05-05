@@ -4,13 +4,8 @@
 
 ### A modern, animated personal portfolio built with Next.js 15, Tailwind CSS & Framer Motion
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-riteshpandeyportfolio.vercel.app-black?style=for-the-badge)](https://riteshpandeyportfolio.vercel.app/)
-[![Next.js](https://img.shields.io/badge/Next.js-15-000000?style=for-the-badge&logo=next.js)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-</div>
+
 
 ---
 
