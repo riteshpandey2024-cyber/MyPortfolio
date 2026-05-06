@@ -5,52 +5,84 @@ import { motion } from "motion/react"
 
 const Header = () => {
   return (
-    <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4'>
-      <motion.div
-        initial={{ scale: 0 }}
-        whileInView={{ scale: 1 }}
-        transition={{ duration: 0.8, type: 'spring', stiffness: 100 }}
-      >
-        <Image src={assets.profile_img} alt='' className='rounded-full w-32' />
-      </motion.div>
-      <motion.h3
-        initial={{ y: -20, opacity: 0 }}
-        whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.6, delay: 0.3 }}
-        className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'>
-        Hi! I'm Ritesh Pandey <Image src={assets.hand_icon} alt='' className='rounded-full w-6' /></motion.h3>
-      <motion.h1
-        initial={{ y: -30, opacity: 0 }}
-        whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.8, delay: 0.5 }}
-        className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-        MERN Stack Developer based in Lucknow.</motion.h1>
+    <div className='w-11/12 max-w-7xl mx-auto min-h-screen flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-16 pt-20 pb-10' id="top">
 
-      <motion.p
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.6, delay: 0.7 }}
-        className='max-w-2xl mx-auto font-Ovo'>
-        I am a MERN Stack Developer from Lucknow, Uttar Pradesh with 1 year of experience in building responsive and user-friendly web applications using HTML, CSS, JavaScript, React, and other.
-      </motion.p>
+      {/* Left Column - Text Content */}
+      <div className='flex-1 text-center lg:text-left'>
+        <motion.h3
+          initial={{ y: -20, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+          className='flex items-center justify-center lg:justify-start gap-2 text-lg md:text-xl mb-4 font-Outfit text-gray-700 dark:text-gray-300'>
+          Hi, I'm Ritesh Pandey <Image src={assets.hand_icon} alt='' className='w-6' />
+        </motion.h3>
 
-      <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
-        <motion.a
+        <motion.h1
+          initial={{ y: -30, opacity: 0 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
+          className='text-3xl sm:text-5xl lg:text-[56px] font-bold font-Outfit leading-tight'>
+          <span className='dark:text-white'>MERN Stack Developer{' '}</span>
+          <span className='dark:text-white'>based in </span>
+          <span className='text-purple-500'>Lucknow.</span>
+        </motion.h1>
+
+        <motion.p
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.6, delay: 0.7 }}
+          className='max-w-xl mx-auto lg:mx-0 mt-6 font-Outfit text-gray-600 dark:text-gray-400 text-base leading-relaxed'>
+          I build modern, responsive and user-friendly web applications using the MERN stack and other modern technologies.
+        </motion.p>
+
+        <motion.div
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 1 }}
-          href="#contact"
-          className='px-10 py-3 border border-white rounded-full bg-black text-white flex items-center gap-2 dark:bg-transparent'
-        >contact me  <Image src={assets.right_arrow_white} alt='' className='rounded-full w-4' /></motion.a>
+          className='flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mt-8'>
 
-        <motion.a
-          initial={{ y: 30, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.6, delay: 1.2 }}
-          href="/RR.pdf" download
-          className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black'>
-          my resume  <Image src={assets.download_icon} alt='' className='rounded-full w-4' /></motion.a>
+          <a
+            href="#contact"
+            className='w-44 py-2.5 rounded-full border-2 border-purple-500 font-Outfit text-sm tracking-[0.15em] uppercase text-center transition-all duration-300 hover:bg-purple-500 hover:text-white dark:border-purple-500 dark:text-white dark:hover:bg-purple-500'
+          >
+            Contact Me
+          </a>
+
+          <a
+            href="/RResume.pdf" download
+            className='w-44 py-2.5 rounded-full border-2 border-purple-500 font-Outfit text-sm tracking-[0.15em] uppercase text-center transition-all duration-300 hover:bg-purple-500 hover:text-white dark:border-purple-500 dark:text-white dark:hover:bg-purple-500'
+          >
+            Resume
+          </a>
+        </motion.div>
       </div>
+
+      {/* Right Column - Profile Image with Glow */}
+      <motion.div
+        initial={{ scale: 0, opacity: 0 }}
+        whileInView={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 0.8, type: 'spring', stiffness: 100 }}
+        className='flex-shrink-0 relative'
+      >
+        {/* Glowing ring behind profile */}
+        <div className='relative w-64 h-64 sm:w-80 sm:h-80 lg:w-[380px] lg:h-[380px]'>
+          {/* Outer glow ring */}
+          <div className='absolute inset-0 rounded-full bg-gradient-to-tr from-purple-600 via-blue-500 to-purple-400 opacity-60 blur-xl animate-pulse dark:opacity-40'></div>
+
+          {/* Circle border */}
+          <div className='absolute inset-2 rounded-full bg-gradient-to-tr from-purple-600 via-indigo-500 to-purple-400 p-[3px]'>
+            <div className='w-full h-full rounded-full bg-white dark:bg-[#0a0118] overflow-hidden'>
+              <Image
+                src={assets.profile_img}
+                alt='Ritesh Pandey'
+                className='w-full h-full object-cover rounded-full'
+              />
+            </div>
+          </div>
+
+
+        </div>
+      </motion.div>
     </div>
   )
 }

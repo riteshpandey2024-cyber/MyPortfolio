@@ -5,3 +5,31 @@
 *{
   font-family: Outfit;
 }
+
+/* Custom delay utilities for animations */
+.delay-100 {
+  animation-delay: 100ms;
+}
+.delay-200 {
+  animation-delay: 200ms;
+}
+
+/* Smooth scrollbar for dark theme */
+.dark ::-webkit-scrollbar {
+  width: 8px;
+}
+.dark ::-webkit-scrollbar-track {
+  background: #0a0118;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #4a1d8a;
+  border-radius: 4px;
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #6b2fbd;
+}
+
+/* Dark theme body background with subtle gradient */
+.dark body {
+  background: linear-gradient(135deg, #0a0118 0%, #11001F 50%, #0a0118 100%);
+}

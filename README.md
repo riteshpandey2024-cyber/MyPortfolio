@@ -86,7 +86,7 @@ portfolio/
 │   ├── assets.js             # Centralized asset imports & data arrays
 │   └── *.png / *.svg         # Icons, profile images & backgrounds
 ├── public/
-│   ├── RR.pdf     # Downloadable resume
+│   ├── RResume.pdf     # Downloadable resume
 │   ├── work-*.png            # Project showcase images
 │   └── footer-bg-color.png   # Contact section background
 ├── tailwind.config.mjs       # Custom colors, fonts, shadows & grid
