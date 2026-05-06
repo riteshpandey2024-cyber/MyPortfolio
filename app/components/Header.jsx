@@ -22,7 +22,7 @@ const Header = () => {
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.5 }}
           className='text-3xl sm:text-5xl lg:text-[56px] font-bold font-Outfit leading-tight'>
-          <span className='dark:text-white'>MERN Stack Developer{' '}</span>
+          <span className='dark:text-white'>Full-Stack & AI-ML Developer{' '}</span>
           <span className='dark:text-white'>based in </span>
           <span className='text-purple-500'>Lucknow.</span>
         </motion.h1>
@@ -32,7 +32,7 @@ const Header = () => {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.7 }}
           className='max-w-xl mx-auto lg:mx-0 mt-6 font-Outfit text-gray-600 dark:text-gray-400 text-base leading-relaxed'>
-          I build modern, responsive and user-friendly web applications using the MERN stack and other modern technologies.
+          I develop scalable web applications, AI-powered systems, and modern backend solutions using the MERN stack, Machine Learning, and cloud technologies. Passionate about building real-world products with clean UI, intelligent features, and seamless user experiences.
         </motion.p>
 
         <motion.div
