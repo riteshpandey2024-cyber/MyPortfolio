@@ -86,7 +86,7 @@ portfolio/
 │   ├── assets.js             # Centralized asset imports & data arrays
 │   └── *.png / *.svg         # Icons, profile images & backgrounds
 ├── public/
-│   ├── Ritesh_Resume.pdf     # Downloadable resume
+│   ├── RR.pdf     # Downloadable resume
 │   ├── work-*.png            # Project showcase images
 │   └── footer-bg-color.png   # Contact section background
 ├── tailwind.config.mjs       # Custom colors, fonts, shadows & grid
@@ -219,7 +219,7 @@ The site is deployed on **Vercel** with zero configuration:
 - 📧 Email: [pandeyriteshp2003@gmail.com](mailto:pandeyriteshp2003@gmail.com)
 - 💼 LinkedIn: [linkedin.com/in/ritesh-pandey2024](https://www.linkedin.com/in/ritesh-pandey2024/)
 - 🐙 GitHub: [github.com/riteshpandey2024-cyber](https://github.com/riteshpandey2024-cyber)
-- 🌐 Portfolio: [riteshpandeyportfolio.vercel.app](https://riteshpandeyportfolio.vercel.app/)
+
 
 ---
 
