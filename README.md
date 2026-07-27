@@ -225,6 +225,6 @@ The site is deployed on **Vercel** with zero configuration:
 
 <div align="center">
 
-Made with ❤️ by **Ritesh Pandey**
+Made ❤️ by **Ritesh Pandey**
 
 </div>
