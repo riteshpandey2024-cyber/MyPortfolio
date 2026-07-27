@@ -10,7 +10,7 @@ const Footer = ({ isDarkMode }) => {
     },
     {
       name: 'Portfolio',
-      href: 'https://riteshpandeyportfolio.vercel.app/',
+      href: 'https://my-portfolio-mhmq.vercel.app/',
     },
     {
       name: 'Github',
