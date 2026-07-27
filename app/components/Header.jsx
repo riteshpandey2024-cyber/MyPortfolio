@@ -32,7 +32,7 @@ const Header = () => {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.7 }}
           className='max-w-xl mx-auto lg:mx-0 mt-6 font-Outfit text-gray-600 dark:text-gray-400 text-base leading-relaxed'>
-          I develop scalable web applications, AI-powered systems, and modern backend solutions using the MERN stack, Machine Learning, and cloud technologies. Passionate about building real-world products with clean UI, intelligent features, and seamless user experiences.
+          I develop scalable web applications, AI-powered systems, and modern backend solutions using the Full stack, Machine Learning, and cloud technologies. Passionate about building real-world products with clean UI, intelligent features, and seamless user experiences.
         </motion.p>
 
         <motion.div

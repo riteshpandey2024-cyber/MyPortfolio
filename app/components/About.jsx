@@ -68,31 +68,34 @@ const About = ({ isDarkMode }) => {
                     className='flex-1'
                 >
                     <p className='mb-10 max-w-2xl font-Outfit text-gray-600 dark:text-gray-400 text-base leading-relaxed'>
-                        I am an experienced MERN Stack Developer with over a years of professional expertise in the field. Throughout my career, I have had the privilege collaborating with prestigious organizations (IIITK), contributing to their success and growth.
+                        I am an experienced Full-Stack & AI-ML Developer with over a years of professional expertise in the field. Throughout my career, I have had the privilege collaborating with prestigious organizations (IIITK), contributing to their success and growth.
                     </p>
 
                     {/* Info Cards */}
                     <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
-                        {infoList.map(({ icon, iconDark, title, description, link }, index) => (
+                        {infoList.map(({ icon, iconDark, title, description, link, accentColor }, index) => (
                             <motion.li
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: 0.3 + index * 0.15 }}
-                                whileHover={{ y: -4 }}
-                                className='border-2 border-gray-200 dark:border-purple-500/30 rounded-xl p-6 cursor-pointer transition-all duration-300 hover:border-purple-500 hover:shadow-lg hover:shadow-purple-500/10 dark:hover:border-purple-500 dark:hover:shadow-purple-500/20 bg-white dark:bg-[#0a0118]/50'
+                                whileHover={{ scale: 1.05 }}
+                                className='relative border border-gray-400 rounded-xl cursor-pointer hover:shadow-black hover:bg-lightHover hover:-translate-y-1 duration-500 dark:hover:bg-darkHover dark:hover:shadow-white bg-white dark:bg-[#0a0118]/60 overflow-hidden'
                                 key={index}
                             >
+                                {/* Colored Top Accent Border */}
+                                <div className={`absolute top-0 left-0 w-full h-[3px] bg-gradient-to-r ${accentColor}`}></div>
+
                                 {link ? (
-                                    <a href={link} target={link.startsWith('http') ? '_blank' : '_self'} rel="noopener noreferrer" className="block h-full w-full">
-                                        <Image src={isDarkMode ? iconDark : icon} alt={title} className='w-7 mt-1' />
-                                        <h3 className='my-4 font-semibold font-Outfit text-gray-800 dark:text-white'>{title}</h3>
-                                        <p className="text-sm font-Outfit font-bold text-black dark:text-white leading-relaxed">{description}</p>
+                                    <a href={link} target={link.startsWith('http') ? '_blank' : '_self'} rel="noopener noreferrer" className="block h-full w-full p-6">
+                                        <Image src={isDarkMode ? iconDark : icon} alt={title} className='w-7' />
+                                        <h3 className='mt-4 mb-2 font-semibold font-Outfit text-gray-800 dark:text-white text-base'>{title}</h3>
+                                        <p className="text-sm font-Outfit font-medium text-gray-500 dark:text-gray-400 leading-relaxed">{description}</p>
                                     </a>
                                 ) : (
-                                    <div className="block h-full w-full">
-                                        <Image src={isDarkMode ? iconDark : icon} alt={title} className='w-7 mt-1' />
-                                        <h3 className='my-4 font-semibold font-Outfit text-gray-800 dark:text-white'>{title}</h3>
-                                        <p className="text-sm font-Outfit font-bold text-black dark:text-white leading-relaxed">{description}</p>
+                                    <div className="block h-full w-full p-6">
+                                        <Image src={isDarkMode ? iconDark : icon} alt={title} className='w-7' />
+                                        <h3 className='mt-4 mb-2 font-semibold font-Outfit text-gray-800 dark:text-white text-base'>{title}</h3>
+                                        <p className="text-sm font-Outfit font-medium text-gray-500 dark:text-gray-400 leading-relaxed">{description}</p>
                                     </div>
                                 )}
                             </motion.li>

@@ -86,22 +86,22 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
+        title: 'Hopalong',
         description: 'Web Design',
         bgImage: '/work-1.png',
     },
     {
-        title: 'Geo based app',
+        title: 'ChatInsight',
         description: 'Mobile App',
         bgImage: '/work-2.png',
     },
     {
-        title: 'Photography site',
+        title: 'GreenShift',
         description: 'Web Design',
         bgImage: '/work-3.png',
     },
     {
-        title: 'UI/UX designing',
+        title: 'Infosec',
         description: 'UI/UX Design',
         bgImage: '/work-4.png',
     },
@@ -115,9 +115,9 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Tech Stack', description: 'My Technical Skills', link: '/tech-stack' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'My Education', link: '/education' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'My Projects', link: '/projects' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Tech Stack', description: 'My Technical Skills', link: '/tech-stack', accentColor: 'from-cyan-400 to-blue-500' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'My Education', link: '/education', accentColor: 'from-purple-500 to-indigo-500' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'My Projects', link: '/projects', accentColor: 'from-pink-500 to-rose-400' },
 ];
 
 export const toolsData = [
