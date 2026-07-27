@@ -32,7 +32,7 @@ const Header = () => {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.7 }}
           className='max-w-xl mx-auto lg:mx-0 mt-6 font-Outfit text-gray-600 dark:text-gray-400 text-base leading-relaxed'>
-          I develop scalable web applications, AI-powered systems, and modern backend solutions using the Full stack, Machine Learning, and cloud technologies. Passionate about building real-world products with clean UI, intelligent features, and seamless user experiences.
+          I'm a Final Year B.Tech Computer Science student specializing in Cyber Security at the Indian Institute of Information Technology (IIIT) Kottayam. I enjoy building scalable full-stack applications, AI-powered systems, and data-driven software that solve real-world problems. With hands-on experience in Software Engineering, Machine Learning, and cloud technologies, I continuously explore modern tools and best engineering practices to create efficient, user-focused solutions. I'm passionate about learning, collaborating, and building innovative products that make a meaningful impact.
         </motion.p>
 
         <motion.div
