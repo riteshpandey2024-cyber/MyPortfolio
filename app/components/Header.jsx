@@ -32,7 +32,7 @@ const Header = () => {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.7 }}
           className='max-w-xl mx-auto lg:mx-0 mt-6 font-Outfit text-gray-600 dark:text-gray-400 text-base leading-relaxed'>
-          I'm a Final Year B.Tech Computer Science student specializing in Cyber Security at the Indian Institute of Information Technology (IIIT) Kottayam. I enjoy building scalable full-stack applications, AI-powered systems, and data-driven software that solve real-world problems. With hands-on experience in Software Engineering, Machine Learning, and cloud technologies, I continuously explore modern tools and best engineering practices to create efficient, user-focused solutions. I'm passionate about learning, collaborating, and building innovative products that make a meaningful impact.
+          I'm a Final-year B.Tech Computer Science student specializing in Cyber Security at the Indian Institute of Information Technology (IIIT) Kottayam. I build AI-powered applications, RAG systems, and full-stack solutions using Python, LangChain, PyTorch, Django, React, and REST APIs. My experience includes LLM applications, vector search, NLP, SQL, database integration, and backend development. I enjoy turning real-world problems into practical, user-focused software and exploring AI-driven automation.
         </motion.p>
 
         <motion.div
@@ -49,7 +49,7 @@ const Header = () => {
           </a>
 
           <a
-            href="/RResume.pdf" download
+            href="/RiteshPandey.pdf" download
             className='w-44 py-2.5 rounded-full border-2 border-purple-500 font-Outfit text-sm tracking-[0.15em] uppercase text-center transition-all duration-300 hover:bg-purple-500 hover:text-white dark:border-purple-500 dark:text-white dark:hover:bg-purple-500'
           >
             Resume
