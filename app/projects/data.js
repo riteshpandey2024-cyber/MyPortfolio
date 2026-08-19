@@ -1,9 +1,36 @@
 export const projectsData = [
     {
+        title: "DocRAG",
+        techStack: ["React", "Django", "ChromaDB", "LangChain", "Groq API", "JWT", "Tailwind CSS"],
+        duration: "Jun – Jul 2026",
+        github: "https://github.com/riteshpandey2024-cyber/DocRAG",
+        color: "from-blue-500 to-cyan-500",
+        description: [
+            "Built an AI-powered document assistant enabling users to instantly query and extract answers from uploaded PDFs, reducing manual document search effort through intelligent automation.",
+            "Implemented Hybrid Retrieval (MMR + BM25) with ChromaDB and LangChain, achieving high contextual accuracy for automated document Q&A.",
+            "Designed the system as a reusable AI agent architecture with multi-turn conversational support, persistent chat history, and autonomous document understanding.",
+            "Developed secure REST APIs using Django REST Framework and JWT authentication, supporting chat management, PDF uploads, and user-specific document retrieval."
+        ]
+    },
+    {
+        title: "SuggestBot",
+        techStack: ["Streamlit", "SQLite", "LangChain", "Ollama(LLaMA2)", "Gemini API", "RapidFuzz"],
+        duration: "Jan - Apr 2026",
+        github: "https://github.com/riteshpandey2024-cyber/SuggestBot",
+        color: "from-orange-500 to-red-500",
+        description: [
+            "Built Natural Language-to-SQL pipeline achieving high structured query accuracy on healthcare dataset.",
+            "Developed a context-aware chatbot with Gemini API and SQLite-based chat history multi-turn interactions.",
+            "Reduced query failure rate by 40% using typo-tolerant fuzzy matching (RapidFuzz).",
+            "Integrated FAISS-based vector retrieval enabling contextual multi-turn reasoning.",
+            "Designed an end-to-end NL → SQL → DB pipeline for real-time query execution and response generation."
+        ]
+    },
+    {
         title: "Hopalong",
         techStack: ["ReactJS", "NodeJS", "PostgreSQL", "Centrifuge", "GeoApiFy", "Supabase", "TypeScript"],
         duration: "Jan - Apr 2025",
-        github: "https://github.com/riteshpandey2024-cyber/hopalong-frontend",
+        github: "https://github.com/riteshpandey2024-cyber/hopalong",
         color: "from-blue-500 to-cyan-500",
         description: [
             "Built a full-stack ride-sharing platform with secure institute authentication using React.js.",
@@ -42,20 +69,6 @@ export const projectsData = [
         ]
     },
     {
-        title: "SuggestBot",
-        techStack: ["Streamlit", "SQLite", "LangChain", "Ollama(LLaMA2)", "Gemini API", "RapidFuzz"],
-        duration: "Jan - Apr 2026",
-        github: "https://github.com/riteshpandey2024-cyber/SuggestBot",
-        color: "from-orange-500 to-red-500",
-        description: [
-            "Built Natural Language-to-SQL pipeline achieving 92% structured query accuracy on healthcare dataset.",
-            "Developed a context-aware chatbot with Gemini API and SQLite-based chat history multi-turn interactions.",
-            "Reduced query failure rate by 40% using typo-tolerant fuzzy matching (RapidFuzz).",
-            "Integrated FAISS-based vector retrieval enabling contextual multi-turn reasoning.",
-            "Designed an end-to-end NL → SQL → DB pipeline for real-time query execution and response generation."
-        ]
-    },
-    {
         title: "Infosec",
         techStack: ["Python", "Excel", "JavaScript", "Chart.js", "Data Visualisation", "Time-Series Analysis"],
         duration: "Mar - Apr 2026",
@@ -67,6 +80,19 @@ export const projectsData = [
             "Performed time-series analysis (2015–2024) on cyberattack trends.",
             "Visualized data using Chart.js (bar, line, pie, scatter, heatmap).",
             "Identified critical low-frequency threats through risk vs frequency analysis."
+        ]
+    },
+    {
+        title: "Chrome Dino",
+        techStack: ["HTML", "CSS", "React", "PHP", "MySQL"],
+        duration: "Aug – Nov 2024",
+        github: "https://github.com/riteshpandey2024-cyber/Chrome-Dino",
+        color: "from-green-500 to-emerald-500",
+        description: [
+            "Developed a full-stack browser-based game inspired by Chrome Dino.",
+            "Implemented a real-time leaderboard system to dynamically track and display player scores.",
+            "Built a messaging and notification module to enable user communication.",
+            "Designed and integrated a badge and reward system, allowing users to purchase and unlock achievements."
         ]
     }
 ];
