@@ -28,27 +28,27 @@ export default function EducationPage() {
             location: "Kottayam, Kerala",
             color: "from-purple-500 to-indigo-500",
             coursework: ["Data Science & Analytics", "Machine Learning (Basics)", "Internet of Things", "Database Management Systems", "Computer Organisation", "Operating Systems", "Computer Networks", "Database Security", "Financial Crime"]
-        },
-        {
-            degree: "Intermediate",
-            institution: "JPS Inter College Balpur Gonda",
-            board: "UP Board",
-            // score: "Percentage: 76.8%",
-            // year: "2022",
-            location: "Gonda, Uttar Pradesh",
-            color: "from-blue-500 to-cyan-500",
-            coursework: []
-        },
-        {
-            degree: "High School",
-            institution: "City Montessori School",
-            board: "UP Board",
-            // score: "Percentage: 79.6%",
-            // year: "2020",
-            location: "Balrampur, Uttar Pradesh",
-            color: "from-pink-500 to-rose-500",
-            coursework: []
         }
+        // {
+        //     degree: "Intermediate",
+        //     institution: "JPS Inter College Balpur Gonda",
+        //     board: "UP Board",
+        //     // score: "Percentage: 76.8%",
+        //     // year: "2022",
+        //     location: "Gonda, Uttar Pradesh",
+        //     color: "from-blue-500 to-cyan-500",
+        //     coursework: []
+        // },
+        // {
+        //     degree: "High School",
+        //     institution: "City Montessori School",
+        //     board: "UP Board",
+        //     // score: "Percentage: 79.6%",
+        //     // year: "2020",
+        //     location: "Balrampur, Uttar Pradesh",
+        //     color: "from-pink-500 to-rose-500",
+        //     coursework: []
+        // }
     ];
 
     return (
