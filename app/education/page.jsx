@@ -33,8 +33,8 @@ export default function EducationPage() {
             degree: "Intermediate",
             institution: "JPS Inter College Balpur Gonda",
             board: "UP Board",
-            score: "Percentage: 76.8%",
-            year: "2022",
+            // score: "Percentage: 76.8%",
+            // year: "2022",
             location: "Gonda, Uttar Pradesh",
             color: "from-blue-500 to-cyan-500",
             coursework: []
@@ -43,8 +43,8 @@ export default function EducationPage() {
             degree: "High School",
             institution: "City Montessori School",
             board: "UP Board",
-            score: "Percentage: 79.6%",
-            year: "2020",
+            // score: "Percentage: 79.6%",
+            // year: "2020",
             location: "Balrampur, Uttar Pradesh",
             color: "from-pink-500 to-rose-500",
             coursework: []
